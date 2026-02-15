@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portofolio Pelajar</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #0f172a;
+    color: #e5e7eb;
+    scroll-behavior: smooth;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    background: #020617;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: #94a3b8;
+    margin: 10px;
+    text-decoration: none;
+}
+
+header {
+    padding: 100px 20px 60px;
+    text-align: center;
+}
+
+section {
+    padding: 40px 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+h2 {
+    border-bottom: 2px solid #1e293b;
+    padding-bottom: 10px;
+}
+
+.card {
+    background: #020617;
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.03);
+}
+
+.gallery img {
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.grade {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+    border-bottom: 1px solid #1e293b;
+}
+
+button {
+    background: #2563eb;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #020617;
+    color: #64748b;
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+<a href="#profil">Profil</a>
+<a href="#proyek">Proyek</a>
+<a href="#galeri">Galeri</a>
+<a href="#nilai">Nilai</a>
+<a href="#kontak">Kontak</a>
+</nav>
+
+<header>
+<h1>Farel Farelnsio</h1>
+<p>Pelajar | SmaN 01 Sol-Sel | X.E.5</p>
+</header>
+
+<section id="profil">
+<h2>Profil</h2>
+<div class="card">
+Saya pelajar yang tertarik pada teknologi, sains, dan pengembangan diri.
+Isi deskripsi kamu di sini.
+</div>
+</section>
+
+<section id="proyek">
+<h2>Proyek Sekolah</h2>
+
+<div class="card">
+<h3>Proyek IPA</h3>
+<p>Deskripsi proyek eksperimen.</p>
+<a href="tugas.pdf" target="_blank">
+<button>Lihat PDF Tugas</button>
+</a>
+</div>
+
+<div class="card">
+<h3>Presentasi Bahasa</h3>
+<p>Deskripsi karya tulis atau presentasi.</p>
+</div>
+
+</section>
+
+<section id="galeri">
+<h2>Galeri Proyek</h2>
+<div class="gallery">
+<img src="https://via.placeholder.com/800x400">
+<img src="https://via.placeholder.com/800x400">
+</div>
+</section>
+
+<section id="nilai">
+<h2>Nilai Akademik</h2>
+<div class="card">
+
+<div class="grade">
+<span>Matematika</span>
+<span>90</span>
+</div>
+
+<div class="grade">
+<span>Bahasa Inggris</span>
+<span>88</span>
+</div>
+
+<div class="grade">
+<span>IPA</span>
+<span>92</span>
+</div>
+
+</div>
+</section>
+
+<section id="kontak">
+<h2>Kontak</h2>
+<div class="card">
+Email: farelfalensio14@gmail.com
+</div>
+</section>
+
+<footer>
+© 2026 Portofolio Pelajar
+</footer>
+
+</body>
+</html>
